@@ -1,4 +1,3 @@
-#take in a file object and string query and return the amount
 #of times it happens in a file.
 
 
@@ -33,4 +32,5 @@ def num_times(file_object, query):
     #occured in file
     return len(list_of_locations)
 
-print num_times(get_file_object('some_text.txt'), get_query())
+if __name__ is '__main__':
+    print num_times(get_file_object('some_text.txt'), get_query())
